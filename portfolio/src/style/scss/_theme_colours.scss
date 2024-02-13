@@ -1,0 +1,25 @@
+$primary_colour: #96705b;
+$secondary_colour: #3D314A;
+
+$dt_primary_colour: #1A1423;
+
+body{
+   
+    &.dark_theme{
+        .page-header{
+            background-color: rgba($dt_primary_colour, 70%);
+        }
+    }
+
+
+    .page-header{
+        background-color: rgba($primary_colour, 70%);
+    }
+
+    .skills_buttons{
+        li{
+            background-color: $secondary_colour;
+            color: #fff;
+        }
+    }
+}
