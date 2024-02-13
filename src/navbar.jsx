@@ -7,11 +7,11 @@ function Navbar() {
         <nav>       
             <ul>         
                 <li>           
-                    <Link to="/" className={ location.pathname == '/' ? 'active' : ''}>About me</Link>         
+                    <Link to="/portfolio" className={ location.pathname == '/' ? 'active' : ''}>About me</Link>         
                 </li>        
                 
                 <li>           
-                    <Link to="/projects" className={ location.pathname == '/projects' ? 'active' : ''}>Examples of my work</Link>        
+                    <Link to="/portfolio/projects" className={ location.pathname == '/projects' ? 'active' : ''}>Examples of my work</Link>        
                 </li>           
             </ul>     
         </nav>   
