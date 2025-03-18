@@ -2,7 +2,7 @@ import React from "react";
 import spotify_img from '../img/screenshot_spotify.png';
 import calc_img from '../img/screenshot_calc.png';
 import portfolio_img from '../img/screenshot_portfolio.png';
-import spacex_img from '../img/screenshot_spacex.png';
+import spotify_player_img from '../img/Screenshot_spotifyPlayer.png';
 import fod_img from '../img/screenshot_fod.png';
 
 
@@ -43,8 +43,8 @@ function page_projects(){
                 <h2 className="section_title">Designs</h2>
                 <div className="container">
                     <article className="portfolio-item">
-                        <a href="https://www.figma.com/proto/JdAKw6iew4QubaWWN1fIwx/SpaceX-api-design?type=design&node-id=109-32&t=OUtxa57f203tBAOP-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=109%3A32" target="_blank">
-                            <img src={spacex_img} className=""></img>
+                        <a href="https://www.figma.com/proto/8dFHo6FwkDmkUHgK97bC8D/Untitled?node-id=66-395&starting-point-node-id=66%3A395" target="_blank">
+                            <img src={spotify_player_img} className=""></img>
                         </a>
                     </article>
                     <article className="portfolio-item">
